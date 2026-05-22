@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokaler Processing.js Test</title>
+    
+    <!-- Hier rufen wir DEINE geladene Datei auf -->
+    <script src="processing.min.js"></script>
+    
+    <style>
+        body {
+            margin: 0;
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        canvas {
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Verknüpfung mit der test.pde -->
+    <canvas data-processing-sources="test.pde"></canvas>
+
+</body>
+</html>
