@@ -36,7 +36,7 @@ void setup(){
   posDreh = new PVector(width/3*2, height/2); //Position der rotierenden Blume 
   drehBlume = new Strahlenblume(posDreh, gross);
   drehBlume.farbeLinie=255;
-  drehBlume.rotation=0.05;
+  drehBlume.rotation=0.01;
   
   //pulsierende Blume definieren mit x- und y-Koordinaten/////////////////////////
   posPulsX=width/3;
