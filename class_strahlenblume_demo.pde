@@ -19,7 +19,7 @@ color rot = color(255,0,0);         //Farbe für pulsierende Blume
 void setup(){
   //size(800, 600);
   //size(window.innerWidth, window.innerHeight);
-  createCanvas(windowWidth, windowHeight);
+  //createCanvas(windowWidth, windowHeight);
 
   //kleine Blumen definieren/////////////////////////////////////////////////////////
   kleineBlume=new Strahlenblume[spalten][zeilen];    
